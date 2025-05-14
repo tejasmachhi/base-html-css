@@ -15,6 +15,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!--  Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+<!-- Slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+
+
+				
 </head>
 
 <body>
@@ -52,6 +60,12 @@
         <div class="container">
             <h2>Contact</h2>
             <p>You can add a contact form or contact details here.</p>
+            <div class="slider">
+  <div><img src="assets/img/087f29f704a708cfa36f26c7ac435c64.jpg" alt="image1"></div>
+  <div><img src="assets/img/download.jpeg" alt="image2"></div>
+    <div><img src="assets/img/087f29f704a708cfa36f26c7ac435c64.jpg" alt="image1"></div>
+
+</div>
         </div>
     </section>
 
@@ -59,9 +73,29 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 Your Name. All rights reserved.</p>
+    
         </div>
     </footer>
 
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+  $('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 200,
+    slidesToShow: 1,
+    arrows: true
+  });
+});
+</script>
 </body>
 
 </html>
